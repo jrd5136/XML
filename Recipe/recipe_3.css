@@ -1,0 +1,102 @@
+Recipes {
+    color: #424242  ;
+    background-color: #E9E9E9  ;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-right: 40px;
+    padding-bottom: 60px;
+}
+
+Title {
+    display: block;
+    margin-bottom: 30px;
+    color: #FF9900  ;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+CookTime {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3299BB  ;
+}
+
+Yield {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #3299BB  ;
+    margin-bottom: 30px;
+}
+
+Para {
+    display: block;
+    margin-bottom: 20px;
+}
+
+Ingredients::before {
+    margin-left: 30px;
+    font-size: 25px;
+    content: "Ingredients";
+}
+
+Ingredients {
+    display: block;
+    margin-bottom: 30px;
+}
+
+Ingredient::before {
+    margin-left: 55px;
+    content: "•";
+}
+
+Ingredient {
+    font-size: 17px;
+    display: block;
+}
+
+Directions::before {
+    content: "Directions";
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+Directions {
+    display: block;
+    width: 75%;
+    margin-bottom: 30px;
+}
+
+Direction {
+    font-size: 17px;
+    display: block;
+    margin-left: 55px;
+}
+
+Tips::before {
+    font-style: normal;
+    content: "Tips:";
+    display: block;
+}
+
+Tips {
+    display: block;
+    color: #AAAAAA ;
+    margin-left: 30px;
+    margin-right: 60px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+Photo {
+    float: right;
+    width: 400px;
+    height: 350px;
+    margin-left: 80px;
+    margin-right: 55px;
+    background: url(Images/halwa3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

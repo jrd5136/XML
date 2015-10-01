@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="recipe_2.css" ?>
+     <!DOCTYPE Recipes SYSTEM "Recipe.dtd" [
+<!ENTITY ingre " 
+    <Ingredients Ingredient_Id='RCP002'>
+    <Ingredient>1 cup quick-cook oats</Ingredient>
+    <Ingredient>1/3 cup dried tart cherries</Ingredient>
+    <Ingredient>1/2 cup all-natural peanut butter</Ingredient>
+    <Ingredient>3 tbsp honey</Ingredient>
+    <Ingredient>1 tsp vanilla</Ingredient>
+    </Ingredients> " >
+    <!ENTITY direct "
+ <Directions Direction_Id='RCP002'>
+    <Direction> 1) Mix the ingredients together in a bowl.</Direction>
+    <Direction> 2) Spread the mixture in a pan and refrigerate for 2 hours.</Direction>
+    <Direction> 3) Slice and enjoy! Return uneaten bars to fridge for storage.</Direction>
+    </Directions>" > ]>
+
+
+    <Recipes>
+        <Recipe recipe_id="RCP002" recipe_type="Desert">
+            <Title>Dr. Oz's No-Bake Energy Bars</Title>
+            <Photo source="Images/image6.JPG"/>
+            <CookTime> Cook Time: 2 hours </CookTime>
+            <Yield> Yield: Makes 5 individual servings</Yield>
+            <Para>
+                Dr. Oz's no-bake energy bars are designed to help you fight off the mid-day slump! The combination of protein, fiber and antioxidants will stabilize your blood sugar and rev up your energy for hours.
+            </Para>
+            &ingre; &direct;
+
+
+            <Tips>
+                Eat a serving whenever you need that extra boost!
+            </Tips>
+        </Recipe>
+
+    </Recipes>

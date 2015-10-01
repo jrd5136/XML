@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="recipe_1.css" ?>
+    <!DOCTYPE Recipes SYSTEM "Recipe.dtd" [
+<!ENTITY ingre " 
+    <Ingredients Ingredient_Id='RCP001'>
+    <Ingredient>1 12-ounce package frozen raspberries </Ingredient>
+    <Ingredient>3/4 cup sugar, divided 1/2 cup and 1/4 cup</Ingredient>
+    <Ingredient>1/3 cup water</Ingredient>
+    <Ingredient>10 Oreo cookies, without the filling, or 20 chocolate wafer cookies</Ingredient>
+    <Ingredient>2 Tbsp melted butter</Ingredient>
+    <Ingredient>8 ounces cream cheese, room temperature</Ingredient>
+    <Ingredient>Pinch salt</Ingredient>
+    <Ingredient>1 egg</Ingredient>
+    <Ingredient>1/3 cup sour cream</Ingredient>
+    <Ingredient>Whipped cream for topping</Ingredient>
+    <Ingredient>Fresh raspberries for garnish</Ingredient>
+    <Ingredient>4 Wide-mouthed 8-ounce mason jars</Ingredient>
+    </Ingredients> " >
+    <!ENTITY direct "
+ <Directions Direction_Id='RCP001'>
+    <Direction> 1) Set aside 1/2 a cup of the frozen raspberries from the package. With the remaining raspberries, place them in a medium saucepan. Add 1/2 cup sugar and 1/3 cup of water. Bring to a simmer on medium high heat, then lower the heat to maintain the simmer, and gently cook, whisking frequently, until the raspberries have completely broken down, about 10 minutes.</Direction>
+    <Direction> 2) If you want, strain the raspberry sauce through a sieve to remove the seeds, and then return the sauce to the pan and continue to gently simmer until the the sauce is syrupy. Set aside to cool.</Direction>
+    <Direction> 3) Grind the chocolate cookie wafers (Oreo or other brand) in a food processor, mini chopper, or by placing in a plastic bag and crushing with a rolling pin, until finely ground.</Direction>
+    <Direction> 4) Place in a medium bowl and stir in the melted butter. Divide evenly among the mason jars, packing the chocolate crust at the bottom of each mason jar in a layer about 1/4 to 1/3-inch thick.</Direction>
+    <Direction> 5) In a mixer, beat the cream cheese on medium speed for 4 minutes, until smooth and light. Add 1/4 cup of sugar and beat 4 minutes more. Add a pinch of salt and the egg, and beat another minute.</Direction>
+    <Direction> 6) Place the reserved raspberries on top of the chocolate crusts in the mason jars in a single layer. Pour the raspberry cheesecake filling over the raspberries in the jars.</Direction>
+    <Direction> 7) 5 Place in a roasting pan and add about an inch of boiling water to the pan to create a water bath, which will help the cheesecakes cook more evenly. Bake at 325°F for 40 minutes. Then turn off the heat in the oven and let the cheesecakes continue to gently cook in the residual heat of the oven for another 30 minutes. </Direction>
+    <Direction> 8) Remove from oven and let cool to room temp. Chill for at least a half hour before eating. Don't worry if there are cracks on the surface of the cheesecakes. Top with the remaining raspberry sauce, whipped cream, and fresh raspberries.</Direction>
+    </Directions>" > ]>
+
+
+    <Recipes>
+        <Recipe recipe_id="RCP001" recipe_type="Desert">
+            <Title>Raspberry Cheesecake</Title>
+            <Photo source="Images/Image1.jpg" />
+            <CookTime> Cook Time: 2 hours </CookTime>
+            <Yield> Yield: Makes 4 individual servings</Yield>
+            <Para> As soon as you think you want to make these cheesecakes, take the cream cheese out of the refrigerator to help it soften as it warms to room temperature. You can probably easily double the recipe without having to double the raspberry sauce.</Para>
+            &ingre; &direct;
+
+
+            <Tips>No need to water bath the crust, the purpose of baking the crust is to harden it so it stays separate from the cheesecake filling when you pour it into the jars. If you bake it with a water bath you won’t harden the crust, but will have the opposite effect.
+            </Tips>
+        </Recipe>
+
+    </Recipes>

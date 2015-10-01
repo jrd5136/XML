@@ -1,0 +1,31 @@
+Recipe{
+    background-color:white;
+    display:block;
+    margin:2em;
+    width:750px;
+    height:750px;
+    color:purple;
+    border-radius:10px;
+    border-color:purple;
+}
+CookTime{
+    font-size:16pt;
+    font-weight:bold;
+}
+Yield{
+    font-size:10pt;
+    float:right;
+}
+Ingredients{
+    display:block;
+    margin-left:2em;
+}
+
+Directions{
+    display:block;
+    margin:2em;
+}
+L{
+    font-style:italic;
+}
+

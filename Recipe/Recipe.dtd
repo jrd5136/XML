@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- we defined the root elemet that is Recipes that must contain the child element recipe.-->
+<!ELEMENT Recipes (Recipe+)>
+
+
+<!--enumeration group entity-->
+<!ENTITY % types "MainDishes|Desert|Salad">
+
+<!--we created the recipe elementn that include  Title ,Photo, CookTime, Yield, Para, 
+                                             Ingredients, Directions, Tips+)-->
+ 
+<!ELEMENT Recipe (Title ,Photo, CookTime, Yield, Para, Ingredients, Directions, Tips+)>
+<!ATTLIST Recipe 
+          recipe_id  ID #REQUIRED
+          recipe_type (%types;) #IMPLIED >
+
+          
+<!--  we declared parametr entity which will be used for making PCDATA the content type  -->
+<!ENTITY % p "(#PCDATA)" >
+
+<!ELEMENT Title %p; >
+<!ELEMENT CookTime %p; >
+<!ELEMENT Yield %p;> 
+<!ELEMENT Ingredients (Ingredient+) >
+<!ATTLIST Ingredients Ingredient_Id IDREF #REQUIRED >
+<!ELEMENT Ingredient %p; >
+
+
+<!ELEMENT Directions (Direction+) > 
+<!ATTLIST Directions Direction_Id IDREF #REQUIRED >
+<!ELEMENT Direction %p; >
+<!ELEMENT Tips  %p; >
+<!ELEMENT Para %p; >
+<!--<!ELEMENT Photo ANY >-->
+ 
+
+<!-- we declare a new notation named "JPEG" for the "image/jpeg" type-->
+<!NOTATION jpeg SYSTEM "image/jpg">
+
+<!--  we declare an external unparsed entity called "jpeg" that refers to an image file called "Images/Image1.jpg"-->
+<!-- to tell the application ther is unparser entity at this location -->
+<!ENTITY jpeg SYSTEM "Images/Image1.jpg" NDATA jpeg>
+
+<!-- We create a new attribute of type ENTITY -->
+<!ELEMENT Photo EMPTY > 
+<!ATTLIST Photo 
+          source CDATA #REQUIRED>
+ 
+ 

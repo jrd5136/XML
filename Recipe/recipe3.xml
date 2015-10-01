@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="recipe_3.css" ?>
+<!DOCTYPE Recipes SYSTEM "Recipe.dtd"
+[
+<!ENTITY ingre " 
+    <Ingredients Ingredient_Id='RCP003'>
+        <Ingredient>2 and 1/2 cups grated organic carrots </Ingredient>
+        <Ingredient>2 and 1/2 cups almond milk</Ingredient>
+        <Ingredient>8 tbsp organic unrefined cane sugar </Ingredient>
+        <Ingredient>1/4 or 1/3 cup almond paste or evaporated milk</Ingredient>
+        <Ingredient>5-6 cardamom, powdered or crushed</Ingredient>
+        <Ingredient>8-10 unsalted whole or chopped cashews</Ingredient>
+        <Ingredient>7-8 unsalted pistachois - sliced or chopped</Ingredient>
+        <Ingredient>12-15 golden raisins</Ingredient>
+        <Ingredient>a pinch of saffron (optional)</Ingredient>
+        <Ingredient>2 or 2/12 tbsp neutral flavored oil (sunflower oil)</Ingredient>
+     </Ingredients> "
+      >
+<!ENTITY direct "
+ <Directions Direction_Id='RCP003'>
+    <Direction> 1) wash, peel and grate the carrots.</Direction>
+    <Direction> 2) mix the almond milk or regular dairy milk and grated carrot together in a pan.</Direction>
+    <Direction> 3) keep on fire and allow the mixture to simmer.</Direction>
+    <Direction> 4) continue to simmer and cook stirring in between.</Direction>
+    <Direction> 5) after 15-20 minutes add cardamom powder and stir.</Direction>
+    <Direction> 6) when the mixture has started thickening, add sugar and oil.</Direction>
+    <Direction> 7) stir and continue to cook.  </Direction>
+    <Direction> 8) when the mixture has almost dried, add the almond paste and dry fruits.</Direction>
+    <Direction> 9) stir and cook further for 2-3 minutes </Direction>   
+    <Direction> 10) serve carrot halwa hot or warm </Direction>
+   
+   </Directions>"
+    >
+    ]>   
+<Recipes >
+    <Recipe recipe_id="RCP003" recipe_type="Desert">
+        <Title>Halwa</Title>
+        <Photo source="Images/halwa3.JPG"/>
+        <CookTime> Cook Time: 40 mins  </CookTime>         
+        <Yield>  Yield: Makes 4 individual servings</Yield>
+        <Para> carrot halwa - a classic indian dessert made with grated carrots and milk.</Para>
+        &ingre;
+        &direct;      
+        <Tips>
+            Please do not indulge in any other activity while cooking, as over cooking spoils the taste!
+        </Tips>
+    </Recipe>
+</Recipes>
+
